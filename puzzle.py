@@ -28,5 +28,3 @@ def validate_board(board:list) -> bool:
             if segment.count(x) > 1 and x.isdigit():
                 return False
     return True
-
-print(validate_board(["**** ****", "***1 ****", "**  3****", "* 4 1****", "     3 5 ", " 6  83  *","3      **", "  8  2***", "  2  ****"]))
